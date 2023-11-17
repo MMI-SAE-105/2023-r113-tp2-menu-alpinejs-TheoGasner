@@ -1,3 +1,3 @@
 - nom : GASNER 
 - prénom : Théo
-- URL publique du site : 
+- URL publique du site : http://127.0.0.1:5500/index.html
