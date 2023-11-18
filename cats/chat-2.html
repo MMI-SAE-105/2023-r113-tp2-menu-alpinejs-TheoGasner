@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #fff;
+            display: grid;
+            place-content: center;
+        }
+
+        .header__menuBtn {
+            position: relative;
+            z-index: 10;
+        }
+
+        .noscroll,
+        .noscroll body {
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li><a
+                href="C:\Users\gasne\OneDrive\Documents\GitHub\2023-r113-tp2-menu-alpinejs-TheoGasner\index.html">Acceuil</a>
+        </li>
+        <li><a
+                href="C:\Users\gasne\OneDrive\Documents\GitHub\2023-r113-tp2-menu-alpinejs-TheoGasner\cats\index.html">Chat</a>
+        </li>
+    </ul>
+
+    <img class="media media--fullwidth"
+        src="C:\Users\gasne\OneDrive\Documents\GitHub\2023-r113-tp2-menu-alpinejs-TheoGasner\public\img\cats\Cautious_Tabby_Red_Cat.jpg"
+        alt="chat rouge">
+</body>
+
+</html>
