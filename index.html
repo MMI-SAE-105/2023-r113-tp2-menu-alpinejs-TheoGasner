@@ -6,26 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test menu</title>
     <script def src="https://unpkg.com/alpinejs"></script>
-    <style>
-      .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #fff;
-        display: grid;
-        place-content: center;
-      }
-      .header__menuBtn {
-        position: relative;
-        z-index: 10;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-      }
-    </style>
+    
   </head>
   <body>
     <!-- https://emmet.io/ -->
@@ -42,6 +23,28 @@
           <li><a href="#">item 3</a></li>
         </ul>
       </nav>
+      <style>
+        .menu {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: #fff;
+          display: grid;
+          place-content: center;
+        }
+      
+        .header__menuBtn {
+          position: relative;
+          z-index: 10;
+        }
+      
+        .noscroll,
+        .noscroll body {
+          overflow: hidden;
+        }
+      </style>
     </header>
     <!-- h2>lorem2^p>lorem -->
     <h2>Lorem, ipsum.</h2>
